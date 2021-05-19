@@ -1,0 +1,49 @@
+body {
+    background: url(../img/presentationa.png) center no-repeat;
+    background-size: cover;
+}
+
+.header__article .header__texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: url('../img/presentation.png') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 1;
+}
+
+.header__slogan {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.article__view--container {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.article__view--title {
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.article__view--content {
+    padding-top: 30px;
+    text-align: justify;
+    font-weight: 300;
+    padding-bottom: 30px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .article__view--container {
+        width: 85%;
+    }
+
+}
